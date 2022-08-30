@@ -1,0 +1,52 @@
+b,h2,h1,.headColor{
+    color: #e95420;
+}
+h1 span{
+    color: #e95420;
+}
+input[type=text]:focus {
+    box-shadow: 0px 0px 2px #e95420;
+    border: 1px solid #e95420;
+    background-color: #fdeee9;
+  }
+textarea:focus{
+    box-shadow: 0px 0px 3px #e95420 !important;
+    border: 1px solid #e95420 !important;
+    background-color: #fdeee9;
+}
+select:focus{
+    box-shadow: 0px 0px 3px #e95420 !important;
+    border: 1px solid #e95420 !important;
+}
+input#published{
+    background-color: red;
+}
+table td a{
+    color: #e95420 !important;
+}
+.btn-light{
+    background-color: white;
+    color: #e95420;
+}
+.btn-light:hover{
+    color: white;
+    background-color: #e95420;
+    border: 1px solid white;
+}
+.btn-light:focus{
+    background-color: silver !important;
+}
+
+.btn-dark{
+    background-color: #e95420;
+    color: white;
+    border: 1px solid white;
+
+}
+.btn-dark:hover{
+    color: #e95420;
+    background-color: white;
+}
+.btn-dark:focus{
+    background-color: silver !important;
+}
