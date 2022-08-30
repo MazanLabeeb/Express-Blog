@@ -9,7 +9,7 @@
 
 ## About <a name = "about"></a>
 
-This is a basic blog app made using Express framework. App uses Mongodb and Postgresql database. 
+This is a basic blog app made using Express framework. App uses Mongodb and Postgresql database. It uses Cloudinary hosting to store the images to the server.
 
 
 ## Getting Started <a name = "getting_started"></a>
@@ -37,9 +37,10 @@ npm i
 
 In case you want to modify the postgres and mongodb database details:
 - Mongodb string has been placed in ".env" file
-- Postgres database details are in blog-service.js file
-
+- Postgres database details are in "blog-service.js" file
+- Cloudinary details are in "server.js" file
 
 
 ## Usage <a name = "usage"></a>
 
+Users can create and login to their account.
