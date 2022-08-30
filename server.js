@@ -1,22 +1,13 @@
-/*********************************************************************************
-* WEB322 – Assignment 06
-* I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
-* of this assignment has been copied manually or electronically from any other source
-* (including 3rd party web sites) or distributed to other students.
-*
-* Name: Ashish Kumar      Student ID: 145529202   Date: 24/06/2022
-*
-* Online (Heroku) Link: https://ashishkumarsblog.herokuapp.com/
-*
-********************************************************************************/
+/******************************************************
+* This blog has been created with ♥ by Mazan Labeeb.
+* Feel free to use it.
+*******************************************************/
 
 const express = require("express");
-const path = require("path");
 const blogService = require("./blog-service");
 const multer = require("multer");
 const cloudinary = require('cloudinary').v2
 const streamifier = require('streamifier');
-const { read } = require("fs");
 const exphbs = require("express-handlebars");
 const stripJs = require('strip-js');
 const auth = require("./auth-service");
