@@ -2,10 +2,14 @@
 
 ## Table of Contents
 
+- [Demo](#Demo)
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
 - [Contributing](../CONTRIBUTING.md)
+
+## <a name = "Demo" href="https://mazansblog.herokuapp.com/">Demo</a>
+
 
 ## About <a name = "about"></a>
 
