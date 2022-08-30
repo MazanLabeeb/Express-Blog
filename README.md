@@ -9,38 +9,37 @@
 
 ## About <a name = "about"></a>
 
-This is a basic blog app made using Express framework. App uses Mongodb and Postgresql database. Users can create account.
+This is a basic blog app made using Express framework. App uses Mongodb and Postgresql database. 
+
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
 What things you need to install the software and how to install them.
 
 ```
-Give examples
+nodejs
+npm
+postgresql
+mongodb
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Clone the repo and run the following command to install required dependencies
 
 ```
-Give the example
+npm i 
 ```
 
-And repeat
+In case you want to modify the postgres and mongodb database details:
+- Mongodb string has been placed in ".env" file
+- Postgres database details are in blog-service.js file
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo.
 
 ## Usage <a name = "usage"></a>
 
-Add notes about how to use the system.
