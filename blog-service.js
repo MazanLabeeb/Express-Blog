@@ -1,9 +1,9 @@
 // postgres
 var Sequelize = require('sequelize');
-var database = 'dehtfvogmoa6hq';
-var password = '1e156a151c7150257650a3b888f3ea2c9e712c795218126d86b9ac5a54a4fbd2';
-var username = 'xygicaoyinvzri';
-var host = 'ec2-52-20-166-21.compute-1.amazonaws.com';
+var database = '';
+var password = '';
+var username = '';
+var host = '';
 
 let sequelize = new Sequelize(database, username, password, {
     host: host,
